@@ -1,0 +1,108 @@
+body,html{
+  font-size: 15px;
+  line-height: 1.5; 
+  font-family: Helvetica;
+  padding:0;
+  margin:0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+.navbar-inverse .navbar-brand{
+  font-size: 25px;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  color: yellow;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: yellow;
+    font-size: 15px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+#mainimage{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url(../img/nyc2.png) no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover;
+}
+
+#mainimage .main-image-container{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content{
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+
+}
+.content h1{
+  font-family: Helvetica,sans-serif;
+  font-size: 100px;
+  margin: -10px;
+  color: yellow;
+  background-color: black;
+}
+
+.content p{
+  font-family: Helvetica,sans-serif;
+  font-size: 35px;
+  margin: 17px;
+  color: yellow;
+  background-color: black;
+}
+
+@media(max-width: 768px){
+  
+  .content h1 {
+    font-size: 60px;
+  }
+
+  .content p{
+    font-size: 25px;
+  }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+    
+}
+
+
+
+
+
+

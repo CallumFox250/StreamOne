@@ -1,0 +1,137 @@
+body,html{
+  font-size: 15px;
+  line-height: 1.5; 
+  font-family: Helvetica;
+  padding:0;
+  margin:0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.container{
+  width:80%;
+  margin:auto;
+
+}
+
+.navbar-inverse .navbar-brand{
+  font-size: 25px;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  color: yellow;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: yellow;
+    font-size: 15px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  background-color: #000000;
+}
+
+--
+
+html, body, .container
+{
+    height: 100%; 
+    min-height: 100%;
+}
+
+.jumbotron{
+  background: url(../img/jumbotron_pic.png); background-size: cover;
+  height: 350px;
+}
+
+.jumbotron h1{
+  color: black;
+  text-align: center;
+}
+
+.jumbotron p{
+  color: black;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+legend{
+font-size: 30px;
+color: black;
+padding: 4px 15px;
+text-decoration: bold;
+}
+
+#input_types{
+width: 50%;
+text-align: center;
+color: white;
+font-size: 20px;
+margin: 0 auto;
+}
+         
+.submit{
+margin-bottom: 10px;
+color: black;
+background-color: white;
+border: 2px solid black;
+font-size: 25px;
+}
+
+.label{
+display: inline-block;
+clear: left;
+text-align: left;
+width: 150px;
+margin-top: 5px;
+margin-bottom: 10px;
+color: black;
+}
+
+input{
+display: inline-block;
+width: 300px;
+border-radius: 5px;
+padding: 6px 8px; 
+margin-top: 6px;   
+}
+
+#enquiry{
+  width: 80%;
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+.numbers{
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.numbers h1{
+  color: black;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.numbers p{
+  color: black;
+  font-size: 20px;
+}
+
+@media(max-width: 768px){
+  
+
+}
+
+
+         
+         
+         
+
+
+
+

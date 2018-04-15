@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ExploreNYC - Contact</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/Contact.css">
+	
+
+	<script type="text/javascript">
+		
+		function check_info(){
+			var mnumber = document.getElementById('mnumber').value;
+			var age = document.getElementById('age').value;
+
+			if(fname=="" || age==""){
+				alert('Please correctly enter your phone number and age!');
+				return false;
+			} 
+			else{
+				return true;
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+	    <div class="container-fluid">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	          <span class="sr-only">Toggle navigation</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">ExploreNYC</a>
+	      </div>
+
+	      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        <ul class="nav navbar-nav navbar-right">
+	          <li><a href="index.html">Homepage</a></li>
+	          <li><a href="districts.html">Districts in NYC</a></li>
+	          <li><a href="food.html">Food in NYC</a></li>
+	          <li><a href="activities.html">Activities in NYC</a></li>
+	          <li><a href="contact.html">Contact Numbers</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	 </nav>
+
+  	<div class="jumbotron">
+	  <h1>Contact Numbers in NYC</h1>
+	  <p> When you are in New York City, you may need to make a phone call in an emergency or require assistance as a tourist, on this page you can find the numbers for emergency services or tourist related items. </p>
+	  <p> There is also a form for you to fill in if you prefer to get a question answered through an email instead of a phone call, all messages are aimed to be replied to within 24 hours.</p>
+	</div>
+
+   	
+   	<div id="input_types">
+                  <form action="formsubmit.html" method="post" onsubmit="return check_info();">
+                  	<legend>Submit an Enquiry</legend>
+                     <div class="label">Forename:</div> 
+                     <input type="text" id="fname" placeholder="Required Field" name="fname"/><br>
+
+                     <div class="label">Surname:</div> 
+                     <input type="text" id="sname" placeholder="Required Field" name="sname"/><br>
+
+                     <div class="label">Email Address:</div> 
+                     <input type="text" id="email" placeholder="Enter Email" name="email"/><br>
+                     
+                     <div class="label">Mobile Number:</div> 
+                     <input type="number" id="mnumber" placeholder="Mobile Number" name="mnumber" pattern="[0-9]" /><br>
+                     
+                     <div class="label">Age:</div> 
+                     <input type="number" min="18" max="120" id="age" placeholder="Age" name="age" /><br>
+
+                     <textarea name="enquiry" id="enquiry" cols="50" rows="10" placeholder="Write your enquiry here..."></textarea>
+                     
+                     <input  type="submit" class="submit" value="Submit"/>
+                  </form> 
+		</div>
+
+		<div class="numbers">
+			<h1> Major Numbers of New York City </h1>
+			<p>Fire, Police and Ambulance - 911 </p>
+			<p>New York Police Department Non-Emergency - 311</p>
+			<p>New York City Fire Department - Manhattan - (212) 999-2222</p>
+			<p>New York City Fire Department - Bronx - (718) 999-3333</p>
+			<p>New York City Fire Department - Brooklyn - (718) 999-4444</p>
+			<p>New York City Fire Department - Queens - (718) 999-5555</p>
+			<p>New York City Fire Department - Staten Island - (718) 999-6666</p>
+			<p>British Consulate General New York - +1 212 745 0200</p>
+			<p>Black Car Company - Dial 8294</p>
+			<p>*If you want a taxi in New York, you cannot call one you can only track one down on the street that is available*</p>
+		</div>
+
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+              
+               
+	
+</body>
+</html>

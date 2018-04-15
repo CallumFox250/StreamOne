@@ -1,0 +1,101 @@
+body,html{
+  font-size: 15px;
+  line-height: 1.5; 
+  font-family: Helvetica;
+  padding:0;
+  margin:0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+.navbar-inverse .navbar-brand{
+  font-size: 25px;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+  color: yellow;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: yellow;
+    font-size: 15px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  background-color: #000000;
+}
+
+.jumbotron{
+  background: url(../img/jumbotron_pic.png); background-size: cover;
+  height: 350px;
+}
+
+.jumbotron h1{
+  color: black;
+  text-align: center;
+}
+
+.jumbotron p{
+  color: black;
+  text-align: center;
+  margin: 0px 50px;
+}
+
+img{
+  height: 300px;
+}
+
+.row h1{
+  color: yellow;
+}
+
+.row{
+  border: none;
+  height: 100%;
+  font-color: black;
+}
+
+.container h3{
+  color: black;
+}
+
+.container p{
+  color: black;
+  font-size: 19px;
+}
+
+.container .container h1{
+  color: black;
+  font-size: 50px;
+  margin: 10px auto;
+}
+
+.container .container{
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
